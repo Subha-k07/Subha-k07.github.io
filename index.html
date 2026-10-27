@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Subalakshmi K – AI &amp; Data Science</title>
+<meta name="description" content="Final-year BTech student in AI &amp; Data Science building computer vision, NLP and generative AI systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ink:#15202B; --muted:#4B5A68; --paper:#F4F7F9; --card:#FFFFFF; --line:#D5DDE3;
+  --teal:#0E5A6B; --box:#C47F00; --boxbg:rgba(196,127,0,.08);
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Public Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#E9EEF2; --muted:#A5B3BF; --paper:#0F171E; --card:#16212A; --line:#2A3946;
+    --teal:#6CC3D5; --box:#F0B24A; --boxbg:rgba(240,178,74,.10); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#E9EEF2; --muted:#A5B3BF; --paper:#0F171E; --card:#16212A; --line:#2A3946;
+  --teal:#6CC3D5; --box:#F0B24A; --boxbg:rgba(240,178,74,.10); color-scheme:dark;
+}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.65}
+a{color:var(--teal);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--box);outline-offset:3px;border-radius:4px}
+.wrap{max-width:860px;margin:0 auto;padding:0 22px}
+nav{display:flex;gap:22px;justify-content:flex-end;padding:22px 0;font-size:15px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none;font-weight:500}
+nav a:hover{color:var(--ink)}
+header.hero{padding:56px 0 64px}
+.detect{position:relative;display:inline-block;border:3px solid var(--box);background:var(--boxbg);padding:30px 30px 26px;margin-top:18px;max-width:100%}
+.detect .tag{position:absolute;left:-3px;top:-31px;background:var(--box);color:#15202B;font-size:13px;font-weight:600;padding:3px 10px;white-space:nowrap}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,72px);line-height:1.02;margin:0;letter-spacing:-.02em}
+.lead{font-size:clamp(18px,2.4vw,21px);max-width:60ch;margin:30px 0 26px;color:var(--ink)}
+.links{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border:2px solid var(--ink);border-radius:6px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}
+.btn.fill{background:var(--ink);color:var(--paper)}
+.btn:hover{border-color:var(--teal)}
+section{padding:44px 0;border-top:1px solid var(--line)}
+h2{font-family:var(--display);font-size:clamp(26px,4vw,34px);margin:0 0 22px;letter-spacing:-.01em}
+.about p{max-width:64ch;margin:0 0 14px}
+.proj{display:grid;grid-template-columns:1fr;gap:6px;padding:22px 0;border-bottom:1px solid var(--line)}
+.proj:first-of-type{padding-top:0}
+.proj h3{font-family:var(--display);font-size:22px;margin:0}
+.proj .when{color:var(--muted);font-size:14px}
+.proj .stack{color:var(--teal);font-size:14.5px;font-weight:500;margin:2px 0 4px}
+.proj p{margin:0;max-width:66ch}
+.status{display:inline-block;margin-left:8px;font-size:12.5px;font-weight:600;padding:2px 9px;border:1.5px solid var(--box);border-radius:99px;vertical-align:middle;font-family:var(--body)}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:30px}
+.cols h3{font-family:var(--display);font-size:18px;margin:0 0 8px}
+.cols ul{margin:0;padding-left:18px;color:var(--muted)}
+.edu strong{font-weight:600}
+footer{border-top:1px solid var(--line);padding:36px 0 56px;color:var(--muted);font-size:15px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Sections">
+    <a href="#about">About</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <div class="detect">
+      <span class="tag">student · AI &amp; Data Science</span>
+      <h1>Subalakshmi K</h1>
+    </div>
+    <p class="lead">I build computer vision, language and generative AI systems, and turn them into working web apps. I’m a final-year BTech student interested in AI research, including AI safety.</p>
+    <div class="links">
+      <a class="btn fill" href="#projects">See my projects</a>
+      <a class="btn" href="https://github.com/Subha-k07" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/subalakshmi-k-46a611347/" rel="noopener">LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>I study Artificial Intelligence and Data Science at Mepco Schlenk Engineering College in Tamil Nadu, India (2023–2027). My work sits between research ideas and usable products: I train models in PyTorch and TensorFlow, then wrap them in FastAPI, Flask or React so people can try them.</p>
+    <p>I’m drawn to systems that help people directly, like an assistive tool for visually impaired users, and to understanding how generative models behave. I’m planning a master’s degree and a research-focused career.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <article class="proj">
+      <h3>CloudAwareLandCover <span class="status">in progress</span></h3>
+      <div class="when">Capstone, 2026</div>
+      <div class="stack">PyTorch · U-Net · Stable Diffusion · satellite imagery</div>
+      <p>A satellite image pipeline that detects clouds, reconstructs the hidden ground with diffusion-based inpainting, and then segments land cover. Built to run on a single laptop GPU. <a href="https://github.com/Subha-k07/CloudAwareLandCover" rel="noopener">Code on GitHub</a>.</p>
+    </article>
+
+    <article class="proj">
+      <h3>Doodle-to-image synthesizer <span class="status">in progress</span></h3>
+      <div class="when">Generative AI project, 2026</div>
+      <div class="stack">PyTorch · conditional GAN · SketchyCOCO · Gradio</div>
+      <p>A fully local tool that turns a hand-drawn doodle into an image with no external APIs. It shows the output of my own trained cGAN next to a local Stable Diffusion + ControlNet result for the same sketch.</p>
+    </article>
+
+    <article class="proj">
+      <h3>LUMIS: assistive system for visually impaired users</h3>
+      <div class="when">Jan–Apr 2026</div>
+      <div class="stack">Python · YOLOv8 · BLIP · OpenCV · FastAPI · React · Web Speech API</div>
+      <p>A voice-controlled system that detects objects and describes surroundings in real time. Object detection and image captioning models feed contextual audio feedback.</p>
+    </article>
+
+    <article class="proj">
+      <h3>AI-verse: multilingual investment analyst</h3>
+      <div class="when">Nov 2025–Jan 2026</div>
+      <div class="stack">RAG · LangChain · FAISS · Hugging Face · Sentence Transformers · Streamlit</div>
+      <p>A retrieval-augmented pipeline supporting six Indian languages. It answers investment questions for founders and VC firms with citations back to the sources.</p>
+    </article>
+
+    <article class="proj">
+      <h3>Samsight: AI social platform</h3>
+      <div class="when">Aug–Oct 2025</div>
+      <div class="stack">React · Flask · MongoDB · OpenAI API · Bcrypt</div>
+      <p>A full-stack social network with conversational AI agents, protected routes, secure authentication and managed secrets.</p>
+    </article>
+
+    <article class="proj">
+      <h3>ECO-bin: smart waste segregation</h3>
+      <div class="when">Jul–Oct 2025</div>
+      <div class="stack">TensorFlow · Keras · MobileNetV2 · OpenCV · ESP32-CAM</div>
+      <p>A CNN with transfer learning that classifies waste as organic, inorganic or hazardous. An ESP32-CAM captures images for real-time inference through a web interface.</p>
+    </article>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="cols">
+      <div><h3>Machine learning</h3><ul><li>CNNs, RNNs, LSTMs, Transformers</li><li>Generative models, fine-tuning</li><li>NLP and RAG pipelines</li><li>Computer vision (OpenCV, MediaPipe)</li></ul></div>
+      <div><h3>Engineering</h3><ul><li>Python, Java, SQL</li><li>React.js, FastAPI, Flask</li><li>Data structures and algorithms</li><li>Git, REST APIs</li></ul></div>
+      <div class="edu"><h3>Education</h3><ul><li><strong>BTech, AI &amp; Data Science</strong>, Mepco Schlenk Engineering College (2023–2027), CGPA 8.22</li></ul></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>The best way to reach me is by email, or through LinkedIn and GitHub.</p>
+    <div class="links">
+      <a class="btn fill" href="mailto:subhakalirajan012@gmail.com">Email me</a>
+      <a class="btn" href="https://www.linkedin.com/in/subalakshmi-k-46a611347/" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/Subha-k07" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</div>
+<footer><div class="wrap">© 2026 Subalakshmi K · Tamil Nadu, India</div></footer>
+</body>
+</html>
